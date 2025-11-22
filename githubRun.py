@@ -195,6 +195,6 @@ if __name__ == '__main__':
     password = sys.argv[2]
     pushplus_token = sys.argv[3]
     ##刷步数
-    res = main(g1antttt214@outlook.com, Aaa978385, 6127, 13284)
+    res = main("g1antttt214@outlook.com", "Aaa978385", 6127, 13284)
     # 推送消息
     pushMessage(pushplus_token, "刷步接口调用", res)
